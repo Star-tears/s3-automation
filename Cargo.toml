@@ -1,0 +1,16 @@
+[package]
+name = "video-to-qrcode"
+version = "0.1.0"
+edition = "2021"
+author = ["Star-tears"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.24"
+rust-s3 = "0.27.0"
+tokio = { version = "1", features = ["full"] }
+execute = "0.2.12"
+image = "0.23.14"
+qrcode = "0.12.0"
+console = "0.15.7"
