@@ -1362,6 +1362,21 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f91339c0467de62360649f8d3e185ca8de4224ff281f66000de5eb2a77a79041"
 
 [[package]]
+name = "s3-automation"
+version = "0.1.0"
+dependencies = [
+ "chrono",
+ "console",
+ "execute",
+ "image",
+ "mime",
+ "mime_guess",
+ "qrcode",
+ "rust-s3",
+ "tokio",
+]
+
+[[package]]
 name = "schannel"
 version = "0.1.21"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1763,21 +1778,6 @@ name = "version_check"
 version = "0.9.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "49874b5167b65d7193b8aba1567f5c7d93d001cafc34600cee003eda787e483f"
-
-[[package]]
-name = "video-to-qrcode"
-version = "0.1.0"
-dependencies = [
- "chrono",
- "console",
- "execute",
- "image",
- "mime",
- "mime_guess",
- "qrcode",
- "rust-s3",
- "tokio",
-]
 
 [[package]]
 name = "want"

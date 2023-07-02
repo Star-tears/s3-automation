@@ -1,5 +1,5 @@
 [package]
-name = "video-to-qrcode"
+name = "s3-automation"
 version = "0.1.0"
 edition = "2021"
 author = ["Star-tears"]
