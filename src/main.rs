@@ -211,7 +211,6 @@ fn generate_qrcode(local: DateTime<Local>) {
     );
     let year = format!("{}", local.year());
     let day = format!("{:02}{:02}", local.month(), local.day());
-    let source_path = env::var(SOURCE_PATH).expect("missing source path");
     let target_path = env::var(TARGET_PATH).expect("missing target path");
     let qrcode_folder_name = "qrcode";
     if let Err(err) = std::fs::create_dir_all(target_path.clone() + "/" + qrcode_folder_name) {
